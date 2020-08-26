@@ -4,10 +4,14 @@ class Course
 
     attr_accessor :title, :schedule, :description
 
-    def initialize(title, schedule, description)
-       @title = title
-       @schedule = schedule
-       @description = description
+    # def initialize(title, schedule, description)
+    #    @title = title
+    #    @schedule = schedule
+    #    @description = description
+    #    @@all << self
+    # end
+
+    def initialize
        @@all << self
     end
 
