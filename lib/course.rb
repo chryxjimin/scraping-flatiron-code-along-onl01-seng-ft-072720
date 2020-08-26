@@ -15,8 +15,7 @@ class Course
     #    @@all << self
     # end
 
-    def self.reset_all
+    def self.all
        @@all
-       @@all.clear
     end
 end
